@@ -160,12 +160,12 @@ function isItAnApple(fruit) {
     const isApple = [];
     for (let i = 0; i < fruit.length; i++) {
         if (fruit[i] === 'apple') {
-            return fruit['true'];
+            isApple.push(true);
         } else {
-            return fruit['false'];
+            isApple.push(false);
         }
     }
-
+    return isApple;
 }
 
 /*
